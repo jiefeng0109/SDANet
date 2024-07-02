@@ -4,7 +4,7 @@
 
 In satellite videos, moving vehicles are extremely small-sized and densely clustered in vast scenes. Anchor-free detectors offer great potential by predicting the keypoints and boundaries of objects directly. However, for dense small-sized vehicles, most anchor-free detectors miss the dense objects without considering the density distribution. Furthermore, weak appearance features and massive interference in the satellite videos limit the application of anchor-free detectors. To address these problems, a novel semantic-embedded density adaptive network (SDANet) is proposed. In SDANet, the cluster-proposals, including a variable number of objects, and centers are generated parallelly through pixel-wise prediction. Then, a novel density matching algorithm is designed to obtain each object via partitioning the cluster-proposals and matching the corresponding centers hierarchically and recursively. Meanwhile, the isolated cluster-proposals and centers are suppressed. In SDANet, the road is segmented in vast scenes and its semantic features are embedded into the network by weakly supervised learning, which guides the detector to emphasize the regions of interest. By this way, SDANet reduces the false detection caused by massive interference. To alleviate the lack of appearance information on small-sized vehicles, a customized bi-directional conv-RNN module extracts the temporal information from consecutive input frames by aligning the disturbed background. The experimental results on Jilin-1 and SkySat satellite videos demonstrate the effectiveness of SDANet, especially for dense objects.
 
-![SDAnet](D:\桌面\SDAnet.png)
+![SDAnet](SDANet.png)
 
 ## Installation
 
