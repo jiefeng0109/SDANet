@@ -1,0 +1,11 @@
+matplotlib
+mmpycocotools
+numba
+opencv_contrib_python
+opencv_python
+Pillow
+progress
+pycocotools
+setuptools
+torch
+torchvision
